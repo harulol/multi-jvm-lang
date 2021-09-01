@@ -9,6 +9,15 @@
 Introduces Kotlin's, Scala's and Groovy's libraries to Bukkit's and Bungee's classpaths.
 </div>
 
+### Versioning
+This will be a bit confusing since this shades multiple libraries into one jar, instead of multiple jars holding each library and versioned according to the library they hold.
+
+The version of this project should be in the format `MAJOR.MINOR.PATCH`:
+- When `PATCH` is `0`, it can be omitted.
+- `PATCH` goes up by 1 when at least a library's `PATCH` version increases.
+- `MINOR` goes up by 1 when at least a library's `MINOR` version increases.
+- `MAJOR` goes up by 1 when at least a library's `MAJOR` version increases.
+
 ### Currently shadowing
 | Library | Version |
 |---|---|
