@@ -1,5 +1,5 @@
 name: MultiJVMLang
-version: 1.0
+version: @VERSION@
 main: dev.hawu.plugins.multilang.BukkitEntrypoint
 description: A plugin that provides libraries for a few languages targetting the JVM.
 authors: [Kotlin by JetBrains, Groovy by Codehaus, Scala by EPDL]
