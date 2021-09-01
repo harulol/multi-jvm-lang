@@ -1,0 +1,34 @@
+name: gradle
+on:
+  push:
+    branches:
+      - '*'
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+  pull_request:
+    branches:
+      - '*'
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking out repository
+        uses: actions/checkout@v2
+      - name: Setting up Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '8'
+      - name: Granting permissions to Gradle
+        run: chmod +x gradlew
+      - name: Building and Shading with Gradle
+        run: ./gradlew build shadowJar
+      - name: Uploading artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build/libs
+          path: './build/libs/*.jar'

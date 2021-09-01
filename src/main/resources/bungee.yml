@@ -1,0 +1,4 @@
+name: MultiJVMLang
+main: dev.hawu.plugins.multilang.BungeeEntrypoint
+version: @VERSION@
+author: Kotlin by JetBrains, Groovy by Codehaus, Scala by EPDL
