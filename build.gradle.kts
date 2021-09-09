@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "dev.hawu.plugins"
-version = "1.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -22,9 +22,9 @@ val shade by configurations.creating {
 dependencies {
     shade("org.jetbrains.kotlin:kotlin-stdlib:1.5.30")
     shade("org.jetbrains.kotlin:kotlin-reflect:1.5.30")
-    shade("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1-native-mt")
+    shade("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2-native-mt")
     shade("org.jetbrains.kotlinx:kotlinx-serialization-core:1.2.2")
-    shade("org.codehaus.groovy:groovy-all:3.0.8")
+    shade("org.codehaus.groovy:groovy-all:3.0.9")
     shade("org.scala-lang:scala3-library_3:3.1.0-RC1")
 
     implementation("org.bukkit:bukkit:1.8-R0.1-SNAPSHOT")

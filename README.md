@@ -23,9 +23,9 @@ The version of this project should be in the format `MAJOR.MINOR.PATCH`:
 |---|---|
 | `kotlin-stdlib` | `1.5.30` |
 | `kotlin-reflect` | `1.5.30` |
-| `kotlinx-coroutines-core` | `1.5.1-native-mt` |
+| `kotlinx-coroutines-core` | `1.5.2-native-mt` |
 | `kotlinx-serialization-core` | `1.2.2` |
-| `groovy-all` | `3.0.8` |
+| `groovy-all` | `3.0.9` |
 | `scala3-library_3` | `3.1.0-RC1` |
 
 ### FaQs

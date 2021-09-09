@@ -18,9 +18,9 @@ public class ConsoleUtils {
         console("&7|----------------------------|-----------------|");
         console("&7|&f kotlin-stdlib              &7|&f 1.5.30          &7|");
         console("&7|&f kotlin-reflect             &7|&f 1.5.30          &7|");
-        console("&7|&f kotlinx-coroutines-core    &7|&f 1.5.1-native-mt &7|");
+        console("&7|&f kotlinx-coroutines-core    &7|&f 1.5.2-native-mt &7|");
         console("&7|&f kotlinx-serialization-core &7|&f 1.2.2           &7|");
-        console("&7|&f groovy-all                 &7|&f 3.0.8           &7|");
+        console("&7|&f groovy-all                 &7|&f 3.0.9           &7|");
         console("&7|&f scala3-library_3           &7|&f 3.1.0-RC1       &7|");
         console("&7|----------------------------|-----------------|");
     }
