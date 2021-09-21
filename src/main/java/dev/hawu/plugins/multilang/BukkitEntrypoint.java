@@ -6,6 +6,7 @@ public final class BukkitEntrypoint extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        ConsoleUtils.bukkit = this;
         ConsoleUtils.printVersions();
     }
 

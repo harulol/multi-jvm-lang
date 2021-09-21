@@ -6,6 +6,7 @@ public class BungeeEntrypoint extends Plugin {
 
     @Override
     public void onEnable() {
+        ConsoleUtils.bungee = this;
         ConsoleUtils.printVersions();
     }
 
