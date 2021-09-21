@@ -21,8 +21,8 @@ The version of this project should be in the format `MAJOR.MINOR.PATCH`:
 ### Currently shadowing
 | Library | Version |
 |---|---|
-| `kotlin-stdlib` | `1.5.30` |
-| `kotlin-reflect` | `1.5.30` |
+| `kotlin-stdlib` | `1.5.31` |
+| `kotlin-reflect` | `1.5.31` |
 | `kotlinx-coroutines-core` | `1.5.2-native-mt` |
 | `kotlinx-serialization-core` | `1.2.2` |
 | `groovy-all` | `3.0.9` |
