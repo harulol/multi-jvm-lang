@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.5.30"
+    kotlin("jvm") version "1.5.31"
     groovy
     java
     scala
@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "dev.hawu.plugins"
-version = "1.0.2"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -23,9 +23,9 @@ dependencies {
     shade("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
     shade("org.jetbrains.kotlin:kotlin-reflect:1.5.31")
     shade("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2-native-mt")
-    shade("org.jetbrains.kotlinx:kotlinx-serialization-core:1.2.2")
+    shade("org.jetbrains.kotlinx:kotlinx-serialization-core:1.3.0")
     shade("org.codehaus.groovy:groovy-all:3.0.9")
-    shade("org.scala-lang:scala3-library_3:3.1.0-RC1")
+    shade("org.scala-lang:scala3-library_3:3.1.1-RC1")
 
     implementation("org.bukkit:bukkit:1.8-R0.1-SNAPSHOT")
     implementation("net.md-5:bungeecord-api:1.17-R0.1-SNAPSHOT")
