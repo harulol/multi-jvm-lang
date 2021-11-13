@@ -5,17 +5,17 @@ public class ConsoleUtils {
     static BukkitEntrypoint bukkit;
     static BungeeEntrypoint bungee;
 
-    private static String[] messages = new String[]{
-            "|----------------------------|-----------------|",
-            "|          Libraries         |     Version     |",
-            "|----------------------------|-----------------|",
-            "| kotlin-stdlib              | 1.5.31          |",
-            "| kotlin-reflect             | 1.5.31          |",
-            "| kotlinx-coroutines-core    | 1.5.2-native-mt |",
-            "| kotlinx-serialization-core | 1.3.0           |",
-            "| groovy-all                 | 3.0.9           |",
-            "| scala3-library_3           | 3.1.1-RC1       |",
-            "|----------------------------|-----------------|",
+    private static final String[] messages = new String[]{
+        "|----------------------------|-----------------|",
+        "|          Libraries         |     Version     |",
+        "|----------------------------|-----------------|",
+        "| kotlin-stdlib              | 1.5.31          |",
+        "| kotlin-reflect             | 1.5.31          |",
+        "| kotlinx-coroutines-core    | 1.5.2-native-mt |",
+        "| kotlinx-serialization-core | 1.3.1           |",
+        "| groovy-all                 | 3.0.9           |",
+        "| scala3-library_3           | 3.1.1-RC1       |",
+        "|----------------------------|-----------------|",
     };
 
     private static void consoleBukkit(final String msg) {
