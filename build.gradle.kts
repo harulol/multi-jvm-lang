@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.5.31"
+    kotlin("jvm") version "1.6.0"
     groovy
     java
     scala
@@ -20,9 +20,9 @@ val shade by configurations.creating {
 }
 
 dependencies {
-    shade("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
-    shade("org.jetbrains.kotlin:kotlin-reflect:1.5.31")
-    shade("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2-native-mt")
+    shade("org.jetbrains.kotlin:kotlin-stdlib:1.6.0-RC2")
+    shade("org.jetbrains.kotlin:kotlin-reflect:1.6.0-RC2")
+    shade("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-RC")
     shade("org.jetbrains.kotlinx:kotlinx-serialization-core:1.3.1")
     shade("org.codehaus.groovy:groovy-all:3.0.9")
     shade("org.scala-lang:scala3-library_3:3.1.1-RC1")

@@ -19,14 +19,14 @@ The version of this project should be in the format `MAJOR.MINOR.PATCH`:
 - `MAJOR` goes up by 1 when at least a library's `MAJOR` version increases.
 
 ### Currently shadowing
-| Library                      | Version           |
-|------------------------------|-------------------|
-| `kotlin-stdlib`              | `1.5.31`          |
-| `kotlin-reflect`             | `1.5.31`          |
-| `kotlinx-coroutines-core`    | `1.5.2-native-mt` |
-| `kotlinx-serialization-core` | `1.3.1`           |
-| `groovy-all`                 | `3.0.9`           |
-| `scala3-library_3`           | `3.1.0-RC1`       |
+| Library                      | Version     |
+|------------------------------|-------------|
+| `kotlin-stdlib`              | `1.6.0-RC2` |
+| `kotlin-reflect`             | `1.6.0-RC2` |
+| `kotlinx-coroutines-core`    | `1.6.0-RC`  |
+| `kotlinx-serialization-core` | `1.3.1`     |
+| `groovy-all`                 | `3.0.9`     |
+| `scala3-library_3`           | `3.1.0-RC1` |
 
 ### FaQs
 <details>
