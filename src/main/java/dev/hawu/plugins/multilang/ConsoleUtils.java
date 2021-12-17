@@ -9,7 +9,7 @@ public class ConsoleUtils {
         "|----------------------------|-----------------|",
         "|          Libraries         |     Version     |",
         "|----------------------------|-----------------|",
-        "| kotlin-stdlib              | 1.6.0-RC2       |",
+        "| kotlin-stdlib              | 1.6.1           |",
         "| kotlin-reflect             | 1.6.0-RC2       |",
         "| kotlinx-coroutines-core    | 1.6.0-RC        |",
         "| kotlinx-serialization-core | 1.3.1           |",
