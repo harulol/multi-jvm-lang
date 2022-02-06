@@ -10,6 +10,11 @@
 Introduces Kotlin's, Scala's and Groovy's libraries to Bukkit's and Bungee's classpaths.
 </div>
 
+## WARNING!
+
+This project is usually useless for people using later versions of Spigot that introduces a way to download libraries from Maven Central, which is the same thing that this plugin
+does. With that said, this plugin is absolutely unnecessary for those who do have that option natively supported by the server.
+
 ### Versioning
 
 This will be a bit confusing since this shades multiple libraries into one jar, instead of multiple jars holding each library and versioned according to the library they hold.
@@ -25,12 +30,12 @@ The version of this project should be in the format `MAJOR.MINOR.PATCH`:
 
 | Library                      | Version     |
 |------------------------------|-------------|
-| `kotlin-stdlib`              | `1.6.1`     |
-| `kotlin-reflect`             | `1.6.0-RC2` |
-| `kotlinx-coroutines-core`    | `1.6.0-RC`  |
-| `kotlinx-serialization-core` | `1.3.1`     |
+| `kotlin-stdlib`              | `1.6.10`    |
+| `kotlin-reflect`             | `1.6.10-RC` |
+| `kotlinx-coroutines-core`    | `1.6.10-RC` |
+| `kotlinx-serialization-core` | `1.3.2`     |
 | `groovy-all`                 | `3.0.9`     |
-| `scala3-library_3`           | `3.1.0-RC1` |
+| `scala3-library_3`           | `3.1.2-RC1` |
 
 ### FaQs
 

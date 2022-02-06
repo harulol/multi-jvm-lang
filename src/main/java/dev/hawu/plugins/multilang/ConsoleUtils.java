@@ -9,12 +9,12 @@ public class ConsoleUtils {
         "|----------------------------|-----------------|",
         "|          Libraries         |     Version     |",
         "|----------------------------|-----------------|",
-        "| kotlin-stdlib              | 1.6.1           |",
-        "| kotlin-reflect             | 1.6.0-RC2       |",
-        "| kotlinx-coroutines-core    | 1.6.0-RC        |",
-        "| kotlinx-serialization-core | 1.3.1           |",
+        "| kotlin-stdlib              | 1.6.10          |",
+        "| kotlin-reflect             | 1.6.10-RC       |",
+        "| kotlinx-coroutines-core    | 1.6.10-RC       |",
+        "| kotlinx-serialization-core | 1.3.2           |",
         "| groovy-all                 | 3.0.9           |",
-        "| scala3-library_3           | 3.1.1-RC1       |",
+        "| scala3-library_3           | 3.1.2-RC1       |",
         "|----------------------------|-----------------|",
     };
 
