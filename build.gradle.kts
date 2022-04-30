@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.6.10"
+    kotlin("jvm") version "1.6.21"
     groovy
     java
     scala
@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "dev.hawu.plugins"
-version = "1.2.2"
+version = "2.0"
 
 repositories {
     mavenCentral()
@@ -20,12 +20,12 @@ val shade by configurations.creating {
 }
 
 dependencies {
-    shade("org.jetbrains.kotlin:kotlin-stdlib:1.6.10")
-    shade("org.jetbrains.kotlin:kotlin-reflect:1.6.10-RC")
-    shade("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
+    shade("org.jetbrains.kotlin:kotlin-stdlib:1.6.21")
+    shade("org.jetbrains.kotlin:kotlin-reflect:1.6.21")
+    shade("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
     shade("org.jetbrains.kotlinx:kotlinx-serialization-core:1.3.2")
-    shade("org.codehaus.groovy:groovy-all:3.0.9")
-    shade("org.scala-lang:scala3-library_3:3.1.2-RC1")
+    shade("org.apache.groovy:groovy-all:4.0.2")
+    shade("org.scala-lang:scala3-library_3:3.1.3-RC2")
 
     implementation("org.bukkit:bukkit:1.8-R0.1-SNAPSHOT")
     implementation("net.md-5:bungeecord-api:1.17-R0.1-SNAPSHOT")
@@ -66,7 +66,7 @@ tasks.shadowJar {
     dependencies {
         include(dependency("org.jetbrains.kotlin:.*:.*"))
         include(dependency("org.jetbrains.kotlinx:.*:.*"))
-        include(dependency("org.codehaus.groovy:.*:.*"))
+        include(dependency("org.apache.groovy:.*:.*"))
         include(dependency("org.scala-lang:.*:.*"))
     }
 }
