@@ -30,12 +30,12 @@ The version of this project should be in the format `MAJOR.MINOR.PATCH`:
 
 | Library                      | Version     |
 |------------------------------|-------------|
-| `kotlin-stdlib`              | `1.6.21`    |
-| `kotlin-reflect`             | `1.6.21`    |
-| `kotlinx-coroutines-core`    | `1.6.1`     |
-| `kotlinx-serialization-core` | `1.3.2`     |
-| `groovy-all`                 | `4.0.2`     |
-| `scala3-library_3`           | `3.1.3-RC2` |
+| `kotlin-stdlib`              | `1.7.0`     |
+| `kotlin-reflect`             | `1.7.0`     |
+| `kotlinx-coroutines-core`    | `1.6.2`     |
+| `kotlinx-serialization-core` | `1.3.3`     |
+| `groovy-all`                 | `4.0.3`     |
+| `scala3-library_3`           | `3.1.3-RC5` |
 
 ### FaQs
 
