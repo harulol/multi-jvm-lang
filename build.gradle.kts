@@ -20,12 +20,12 @@ val shade by configurations.creating {
 }
 
 dependencies {
-    shade("org.jetbrains.kotlin:kotlin-stdlib:1.7.0")
-    shade("org.jetbrains.kotlin:kotlin-reflect:1.7.0")
-    shade("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2")
-    shade("org.jetbrains.kotlinx:kotlinx-serialization-core:1.3.3")
-    shade("org.apache.groovy:groovy-all:4.0.3")
-    shade("org.scala-lang:scala3-library_3:3.1.3-RC5")
+    shade("org.jetbrains.kotlin:kotlin-stdlib:1.7.20-RC")
+    shade("org.jetbrains.kotlin:kotlin-reflect:1.7.20-RC")
+    shade("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+    shade("org.jetbrains.kotlinx:kotlinx-serialization-core:1.4.0")
+    shade("org.apache.groovy:groovy-all:4.0.5")
+    shade("org.scala-lang:scala3-library_3:3.2.1-RC2")
 
     implementation("org.bukkit:bukkit:1.8-R0.1-SNAPSHOT")
     implementation("net.md-5:bungeecord-api:1.17-R0.1-SNAPSHOT")
